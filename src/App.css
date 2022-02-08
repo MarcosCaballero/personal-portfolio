@@ -14,7 +14,7 @@ h1 {
   white-space: nowrap;
   border-right: 4px solid;
   width: 31ch;
-  animation: typing 4s steps(31), blink 0.5s infinite step-end alternate;
+  animation: typing 5s steps(31), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 @keyframes blink {
-  60% {
+  50% {
     border-color: transparent;
   }
 }
