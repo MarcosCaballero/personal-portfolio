@@ -1,7 +1,7 @@
 import React from "react";
 import imagen1 from "../../assets/images/foto (1).png";
 
-const About = () => {
+const Landing = () => {
   return (
     <div className=" w-3/4 h-full mx-auto py-20 flex">
       <div className="w-full my-auto">
@@ -15,4 +15,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Landing;
