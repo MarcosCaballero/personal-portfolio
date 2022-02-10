@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  text-transform: capitalize;
 }
 
 h1 {
@@ -16,6 +15,7 @@ h1 {
   width: 31ch;
   animation: typing 5s steps(31), blink 0.5s infinite step-end alternate;
   overflow: hidden;
+  text-transform: capitalize;
 }
 
 @keyframes typing {

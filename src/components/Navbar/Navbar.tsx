@@ -13,7 +13,7 @@ const Navbar = () => {
       <nav className="flex w-2/4 items-center justify-around">
         {routes.map((route, index: number) => (
           <NavLink
-            className=" tracking-widest text-xl"
+            className=" tracking-widest text-xl uppercase"
             key={index}
             to={route.ph}
           >
