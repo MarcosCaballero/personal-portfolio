@@ -5,7 +5,7 @@ const Tecnologies = () => {
   return (
     <div className=" w-100% ">
       <h2 className="text-5xl px-10 py-5 font-bold text-center mb-10">
-        Tecnologpias que utilizo
+        Tecnologías que utilizo
       </h2>
       <div className="bg-white h-auto m-0 overflow-hidden relative w-full before:slider-before after:slider-after">
         <div className="slider-track flex w-[calc(250px * 4)] animate-scroll  ">
