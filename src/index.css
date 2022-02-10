@@ -3,26 +3,14 @@
 
 .slider-before,
 .slider-after {
-  background-color: linear-gradient(
-    to right,
-    white 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  content: "";
-  height: auto;
-  position: absolute;
-  width: 100px;
-  z-index: 2;
+  @apply h-auto absolute w-[calc(100px)] z-10;
 }
 
 .slider-after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
+  @apply right-0 top-0 rotate-180;
 }
 
 .slider-before {
-  left: 0;
-  top: 0;
+  @apply left-0 top-0;
 }
 @tailwind utilities;
